@@ -28,7 +28,7 @@ theme: minima
 plugins:
   - jekyll-feed
 
-port: 8001
+port: 4005
 
 defaults:
   -
