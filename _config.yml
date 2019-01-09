@@ -28,15 +28,15 @@ theme: minima
 plugins:
   - jekyll-feed
 
-port: 4005
-
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
+# port: 4005
+#
+# defaults:
+#   -
+#     scope:
+#       path: ""
+#       type: "posts"
+#     values:
+#       layout: "post"
 
 
 # Exclude from processing.
