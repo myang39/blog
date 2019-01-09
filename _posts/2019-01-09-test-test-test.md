@@ -15,3 +15,5 @@ Some content
 
 各种历史教训告诉我: 要边检测边开发!!! 去deploy的地方检测,local是local, deployed是deployed
 很多不一样的!
+
+debug方法: 肉眼, 换血大法, print
