@@ -17,8 +17,8 @@ title: Luke Yang's Blog (杨民康的博客)
 email: minkangyang@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Minkang(Luke) Yang Blog
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "/blog" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "blog" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: LukeYanggg
 github_username: myang39
 
