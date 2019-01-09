@@ -1,26 +1,40 @@
 ---
 layout: post
-title:  "New Title!"
+title:  "React deployment"
 date:   2019-01-08 21:46:08 -0500
 categories: jekyll update
 author: "Luke"
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+哈喽大家好! 今天尝试了react project deployment
 
-Jekyll also offers powerful support for code snippets:
+Deployment:
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+React:
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+https://facebook.github.io/create-react-app/docs/deployment#step-1-add-homepage-to-packagejson
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+先说废话:
+Follow 了amazon S3的deployment 方法 (前后spend like an hour?...)
+https://medium.com/@omgwtfmarc/deploying-create-react-app-to-s3-or-cloudfront-48dae4ce0af
+
+结果貌似S3上只能是http的,然后aoundweb project里面有getLocation这种call, http通不过, 需要用https的网站才行,所以看了一下这个链接
+
+https://medium.com/@itsmattburgess/hosting-a-https-website-using-aws-s3-and-cloudfront-ee6521df03b9
+
+按要求去amazon route 53 register domain,结果居然需要等待通过(up to 3 days, 然后还有通不过的可能?)
+
+于是我在等待中,deploy计划就先pending了
+
+再说有用的:
+Follow 了 Firebase 的 deploy
+
+https://facebook.github.io/create-react-app/docs/deployment#step-1-add-homepage-to-packagejson
+
+基本没遇到啥问题
+就是一开始firebase init的时候,刚刚新创建的project没有show up,于是参照这个stackoverflow
+https://stackoverflow.com/questions/50381048/new-project-not-showing-up-firebase-cli
+就解决了
+
+现在网站deploy在 https://aroundweb-9f2c4.firebaseapp.com/home
+一切正常
