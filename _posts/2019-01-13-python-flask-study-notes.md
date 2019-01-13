@@ -53,5 +53,9 @@ if __name__ == '__main__':
 
 ```
 
-the reason behind it is that the condition(`__name__ == '__main__'`) is only true
+The reason behind it is that the condition(`__name__ == '__main__'`) is only true
 if we run this script directly.
+
+The `@app.route('/home')` is called decorator. It basically handle all of the complicated
+stuff and allows us to write a function that returns the information that will be shown on
+our website for this specific route(`/home`)
