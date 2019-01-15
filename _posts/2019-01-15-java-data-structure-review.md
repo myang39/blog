@@ -15,6 +15,9 @@ public class ListNode {
     ListNode next;
     ListNode(int x) { val = x; }
 }
+
+// The Java LinkedList
+LinkedList<Integer> list = new LinkedList<>();
 ```
 
 ### Array
@@ -43,14 +46,37 @@ String upper = a.toUpperCase();
 String lower = a.toLowerCase();
 String trimmed = a.trim(); // Returns a copy of the string, with leading and trailing whitespace omitted.
 
-// static valueOf group (9 of them ...)
+// static methond: 
+// valueOf group
 String myStringValue = String.valueOf(e);
-// e can be boolean, char, char[],
+// e can be 
+// boolean, char, char[],
 // char[] offset count, double, float, int, long
-// and even Object (if the argument is null, then a string equal to "null"; otherwise, the value of obj.toString() is returned.)
+// Object (if the argument is null, then a string equal to "null"; otherwise, the value of obj.toString() is returned.)
 ```
+### autoboxing and unboxing
 
+Autoboxing is the automatic conversion that the Java compiler makes
+between the primitive types and their corresponding object wrapper classes.
+For example, converting an int to an Integer, a double to a Double, and so on.
 
+If the conversion goes the other way, this is called unboxing.
+
+### The primitive types and their corresponding wrapper classes
+```java
+boolean Boolean
+byte    Byte
+char    Character
+float   Float
+int     Integer
+long    Long
+short   Short
+double  Double
+```
+### Integer
+Integer input = 1 // autoboxing
+// static method
+String inputString =  
 
 
 
