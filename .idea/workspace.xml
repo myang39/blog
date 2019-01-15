@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12e66eff-e3f2-48d1-b7ac-f046f12c9174" name="Default Changelist" comment="" />
+    <list default="true" id="12e66eff-e3f2-48d1-b7ac-f046f12c9174" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-01-15-java-data-structure-review.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-01-15-java-data-structure-review.md" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +21,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2019-01-15-java-data-structure-review.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="187">
-                <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <first_editor relative-caret-position="325">
+                <caret line="47" column="12" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
               </first_editor>
               <second_editor />
             </state>
@@ -117,12 +120,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1547547972985</updated>
-      <workItem from="1547547977442" duration="229000" />
+      <workItem from="1547547977442" duration="1909000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="229000" />
+    <option name="totallyTimeSpent" value="1909000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="11" y="25" width="1263" height="771" extended-state="0" />
@@ -133,9 +136,9 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" sideWeight="0.5007342" side_tool="true" weight="0.25970873" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.4992658" visible="true" weight="0.14093429" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.4992658" visible="true" weight="0.14093429" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="3" />
@@ -167,8 +170,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2019-01-15-java-data-structure-review.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="187">
-            <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <first_editor relative-caret-position="325">
+            <caret line="47" column="12" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
           </first_editor>
           <second_editor />
         </state>
