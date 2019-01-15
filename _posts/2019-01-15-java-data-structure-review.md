@@ -78,10 +78,28 @@ long    64-bit      Long
 double  64-bit      Double
 ```
 ### Integer
-Integer input = 1 // autoboxing
-// static method
-String inputString =  
+```java
+// constructor
+Integer a = new Integer(1);
+Integer b = new Integer("1");
 
+Integer input = 1; // autoboxing
+String inputString = a.toString(); // Returns a String object representing this Integer's value.
+
+// static method
+String c = Integer.toString(2); // Returns a String object representing the specified integer.
+String d = Integer.toString(15, 16); // Returns a string representation of the first argument in the radix specified by the second argument.
+
+Integer e = Integer.valueOf(4);
+Integer f = Integer.valueOf("4");
+Integer g = Integer.valueOf("15", 16);
+
+// useful fields
+int min = Integer.MIN_VALUE;
+int max = Integer.MAX_VALUE;
+```
+
+### StringBuilder
 
 
 
