@@ -20,8 +20,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2019-01-15-java-data-structure-review.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="391">
-                <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
+              <first_editor relative-caret-position="261">
+                <caret line="68" column="20" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="20" />
               </first_editor>
               <second_editor />
             </state>
@@ -119,12 +119,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1547547972985</updated>
-      <workItem from="1547547977442" duration="3138000" />
+      <workItem from="1547547977442" duration="3543000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3138000" />
+    <option name="totallyTimeSpent" value="3543000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="11" y="25" width="1263" height="771" extended-state="0" />
@@ -169,8 +169,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2019-01-15-java-data-structure-review.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="391">
-            <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
+          <first_editor relative-caret-position="261">
+            <caret line="68" column="20" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="20" />
           </first_editor>
           <second_editor />
         </state>

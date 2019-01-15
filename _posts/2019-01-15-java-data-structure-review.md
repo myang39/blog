@@ -64,14 +64,18 @@ If the conversion goes the other way, this is called unboxing.
 
 ### The primitive types and their corresponding wrapper classes
 ```java
-boolean Boolean
-byte    Byte
-char    Character
-float   Float
-int     Integer
-long    Long
-short   Short
-double  Double
+boolean 1-bit(size not precisely defined) Boolean  
+
+byte    8-bit       Byte
+
+short   16-bit      Short
+char    16-bit      Character
+
+int     32-bit      Integer
+float   32-bit      Float
+
+long    64-bit      Long
+double  64-bit      Double
 ```
 ### Integer
 Integer input = 1 // autoboxing
