@@ -47,7 +47,7 @@ String lower = a.toLowerCase();
 String trimmed = a.trim(); // Returns a copy of the string, with leading and trailing whitespace omitted.
 
 // static methond: 
-// valueOf group
+// valueOf
 String myStringValue = String.valueOf(e);
 // e can be 
 // boolean, char, char[],
@@ -100,7 +100,48 @@ int max = Integer.MAX_VALUE;
 ```
 
 ### StringBuilder
+```java
+// constructor
+StringBuilder sb = new StringBuilder(); //Constructs a string builder with no characters in it and an initial capacity of 16 characters.
+StringBuilder sb1 = new StringBuilder(5); // initial capacity as 5
+StringBuilder sb2 = new StringBuilder("hello"); // Constructs a string builder initialized to the contents of the specified string.
 
+// append 
+sb.append(b);
+// b can be
+// boolean, char, char[], char[] offset len,
+// charSequence, charSequence start end,
+// double, float, int, long, Object, String,
+// StringBuilder
+
+int capacity = sb.capacity(); // Returns the current capacity.
+int length = sb.length(); // Returns the length (character count).
+
+char c = sb2.charAt(3); // Returns the char value in this sequence at the specified index.
+int start = 1; int end = 3;
+sb.delete(1, 3); // Removes the characters in a substring of this sequence.
+// The substring begins at the specified start and extends to the character at index end - 1 or to the end of the sequence if no such character exists.
+
+sb.deleteCharAt(2); // Removes the char at the specified position in this sequence.
+
+int d = sb.indexOf("lo"); // Returns the index within this string of the first occurrence of the specified substring.
+int e = sb.indexOf("lo", 3); // Returns the index within this string of the first occurrence of the specified substring, starting at the specified index.
+
+// insert
+int offset = 4;
+sb.insert(offset, f);
+// f can be ...
+
+int index = 3;
+sb.setCharAt(index, 'f'); // The character at the specified index is set to ch.
+
+String stringValue = sb.toString(); // a new String Object will be allocated
+
+int start = 1; int end = 4;
+char[] array = sb.subSequence(start, end); // Returns a new character sequence that is a subsequence of this sequence.
+String g = sb.substring(start); // Returns a new String that contains a subsequence of characters currently contained in this character sequence.
+String h = sb.substring(start, end);
+```
 
 
 
