@@ -16,8 +16,9 @@ public class ListNode {
     ListNode(int x) { val = x; }
 }
 
-// The Java LinkedList
+// The doubly-linked list (Java's LinkedList)
 LinkedList<Integer> list = new LinkedList<>();
+
 ```
 
 ### Array
@@ -142,7 +143,24 @@ char[] array = sb.subSequence(start, end); // Returns a new character sequence t
 String g = sb.substring(start); // Returns a new String that contains a subsequence of characters currently contained in this character sequence.
 String h = sb.substring(start, end);
 ```
+### Arrays
 
+```java
+//static method
+static <T> void	sort(T[] a, Comparator<? super T> c); //Sorts the specified array of objects according to the order induced by the specified comparator.
+```
 
+### Comparator
+// using lambda expression
+```java
+public class Interval {
+    int start;
+    int end;
+    Interval() { start = 0; end = 0; }
+    Interval(int s, int e) { start = s; end = e; }
+} 
+// lambda, autoBoxing
+Comparator a = Comparator.comparing((Interval a) -> a.start)
 
+```
 

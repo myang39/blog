@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12e66eff-e3f2-48d1-b7ac-f046f12c9174" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/2019-01-15-java-data-structure-review.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-01-15-java-data-structure-review.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,10 +21,11 @@
         <entry file="file://$PROJECT_DIR$/_posts/2019-01-15-java-data-structure-review.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="374">
-                <caret line="138" column="3" lean-forward="true" selection-start-line="138" selection-start-column="3" selection-end-line="138" selection-end-column="3" />
+              <first_editor relative-caret-position="357">
+                <caret line="157" column="37" selection-start-line="157" selection-start-column="37" selection-end-line="157" selection-end-column="37" />
                 <folding>
                   <element signature="e#0#14#0" expanded="true" />
+                  <element signature="e#0#15#0" expanded="true" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -122,15 +124,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1547547972985</updated>
-      <workItem from="1547547977442" duration="6364000" />
+      <workItem from="1547547977442" duration="7433000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6364000" />
+    <option name="totallyTimeSpent" value="7433000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="11" y="25" width="1263" height="771" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="Image Layers" order="1" />
@@ -171,10 +174,11 @@
     <entry file="file://$PROJECT_DIR$/_posts/2019-01-15-java-data-structure-review.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="374">
-            <caret line="138" column="3" lean-forward="true" selection-start-line="138" selection-start-column="3" selection-end-line="138" selection-end-column="3" />
+          <first_editor relative-caret-position="357">
+            <caret line="157" column="37" selection-start-line="157" selection-start-column="37" selection-end-line="157" selection-end-column="37" />
             <folding>
               <element signature="e#0#14#0" expanded="true" />
+              <element signature="e#0#15#0" expanded="true" />
             </folding>
           </first_editor>
           <second_editor />
