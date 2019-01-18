@@ -16,17 +16,13 @@
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2019-01-15-java-data-structure-review.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="357">
-                <caret line="157" column="37" selection-start-line="157" selection-start-column="37" selection-end-line="157" selection-end-column="37" />
-                <folding>
-                  <element signature="e#0#14#0" expanded="true" />
-                  <element signature="e#0#15#0" expanded="true" />
-                </folding>
+              <first_editor relative-caret-position="238">
+                <caret line="154" selection-start-line="154" selection-end-line="154" />
               </first_editor>
               <second_editor />
             </state>
@@ -62,6 +58,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -78,7 +75,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -86,6 +82,7 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -124,12 +121,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1547547972985</updated>
-      <workItem from="1547547977442" duration="7433000" />
+      <workItem from="1547547977442" duration="7709000" />
+      <workItem from="1547830427399" duration="241000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7433000" />
+    <option name="totallyTimeSpent" value="7950000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="11" y="25" width="1263" height="771" extended-state="0" />
@@ -174,12 +172,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2019-01-15-java-data-structure-review.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="357">
-            <caret line="157" column="37" selection-start-line="157" selection-start-column="37" selection-end-line="157" selection-end-column="37" />
-            <folding>
-              <element signature="e#0#14#0" expanded="true" />
-              <element signature="e#0#15#0" expanded="true" />
-            </folding>
+          <first_editor relative-caret-position="238">
+            <caret line="154" selection-start-line="154" selection-end-line="154" />
           </first_editor>
           <second_editor />
         </state>

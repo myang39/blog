@@ -148,6 +148,11 @@ String h = sb.substring(start, end);
 ```java
 //static method
 static <T> void	sort(T[] a, Comparator<? super T> c); //Sorts the specified array of objects according to the order induced by the specified comparator.
+List<Integer> = Arrays.asList(new int[]{1,2,3}); // Returns a fixed-size list backed by the specified array.
+
+boolean whetherEqual = Arrays.equals(arrayA, arrayB); // return a boolean
+Arrays.fill(allKindsOfArray, value); // void 
+String s = Arrays.toString(allKindsOfArray);
 ```
 
 ### Comparator
