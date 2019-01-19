@@ -58,5 +58,10 @@ like add this line
 And there should be no space around the ```=``` sign, otherwise
 you terminal would complain when you try to ```$source ~/.zshrc```
 
+You could check the environment varible you just added
+by ```$echo $ANT_HOME```
+
+Good Luck!
+
  
 
