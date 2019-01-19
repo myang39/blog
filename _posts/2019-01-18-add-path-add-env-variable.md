@@ -61,6 +61,8 @@ you terminal would complain when you try to ```$source ~/.zshrc```
 You could check the environment varible you just added
 by ```$echo $ANT_HOME```
 
+Great thanks to https://www.youtube.com/watch?v=gkqsLRDnqlA
+
 Good Luck!
 
  
