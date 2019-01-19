@@ -28,16 +28,16 @@ software living inside some folders) you typed in the terminal. These
 directory locations are __separated by colon__.
 
 So if you want your software to be accessible to the terminal (which is
-also a piece of software), you need to tell it by add the folder's that
+also a piece of software), you need to tell it by adding the folder that
 contains your software (usually it's called bin (short for binary) when you download some
 package from the internet) __to the PATH__. You can do that
-by add a line like
+by adding a line like
 ```export PATH=${PATH}:the/directory/location/you/want/to/add```
 or ```export PATH=the/directory/location/you/want/to/add:${PATH}```
 to the ~/.bash_profile ot ~/.bashrc or ~/.zshrc (if you use zsh)
 
-what the line above does is it append or prepend the directory location
-you want to add to the old PATH (all other directory locations that alreay
+What the line above does is it appends or prepends the directory location
+you want to the old PATH (all other directory locations that already
 in the PATH)
 
 Now in order for the newly updated PATH to take effect. You could
@@ -50,6 +50,13 @@ if you add the line in ~/.bashrc, ```$source ~/.bashrc``` instead)
 
 So PATH is a environment variable which the terminal uses to find
 pieces of command software.
+
+You could set other environmental variable too.
+like add this line
+```export ANT_HOME=the/value/you/want/to/assign/to/ANT_HOME```
+
+And there should be no space around the ```=``` sign, otherwise
+you terminal would complain when you try to ```$source ~/.zshrc```
 
  
 
