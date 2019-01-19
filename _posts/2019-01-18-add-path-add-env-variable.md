@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Mac Add Path and Add Environment Variable"
+title:  "Mac - Add to Path and Add Environment Variable"
 date:   2019-01-18
 categories: jekyll update
 author: "Luke"
@@ -23,8 +23,8 @@ The output is gonna looks like this: ```$/home/jacob/bin:/usr/local/sbin:/usr/lo
 which is quite confusing to people who looks at it for the first time.
 
 The output is actually just directory locations that the terminal would be
-looking at when it trys to find the the command software (Yes! Commands like ls, rm, mv are all
-softwares living inside some folders) you typed in the terminal. These
+looking at when it trys to find the the command software (Yes! Commands like ls, rm, mv are all pieces of
+software living inside some folders) you typed in the terminal. These
 directory locations are __separated by colon__.
 
 So if you want your software to be accessible to the terminal (which is
@@ -44,6 +44,12 @@ Now in order for the newly updated PATH to take effect. You could
 either ```$source ~/.zshrc``` (assume you add the line in ~/.zsh,
 if you add the line in ~/.bashrc, ```$source ~/.bashrc``` instead)
 , or you could fully close (quit) the terminal and restart the terminal.
+
+
+### Add Environment Variable
+
+So PATH is a environment variable which the terminal uses to find
+pieces of command software.
 
  
 
