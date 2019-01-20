@@ -9,7 +9,9 @@ author: "Luke"
 ### Always develop website in the incognito (private) mode!
 
 An error in the component might cause it to be not rendered on the
-html. (Ever wondering where are all the components?)
+html. E.g., if the error is in your Main.js, and all your other components is
+within your Main.js, your website could ended up rendering as a blank page.
+(Ever wondering where are all the components?)
 
 If the browser is complaining about you are sending http requests
 within the https website. You could add the following line inside the index.html's
