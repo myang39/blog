@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "React Deployment - from "npm run build" to "firebase deploy"
+title:  "React Deployment 2 - npm run build blank page, http within https website"
 date:   2019-01-20
 categories: jekyll update
 author: "Luke"
@@ -9,4 +9,16 @@ author: "Luke"
 ### Always develop website in the incognito (private) mode!
 
 An error in the component might cause it to be not rendered on the
-html, and I started to wonder where are the components.
+html. (Ever wondering where are all the components?)
+
+If the browser is complaining about you are sending http requests
+within the https website. You could add the following line inside the index.html's
+head tag: 
+```
+<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+``` 
+. It will upgrade all http requests to https requests. Of course, the https
+requests need to be backed up by the website you are sending requests to in
+order for this to be work.
+
+
