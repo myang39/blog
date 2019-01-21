@@ -8,6 +8,10 @@ author: "Luke"
 
 ### Always develop website in the incognito (private) mode!
 
+0. Try to test website from localhost in the incognito or private mode, because
+your newly modified code might not take effect because of the previous history, or cache, or 
+local Storage (under the Application tab in inspect).
+
 1. An error in the component might cause it to be not rendered on the
 html. E.g., if the error is in your Main.js, and all your other components is
 within your Main.js, your website could ended up rendering as a blank page.
