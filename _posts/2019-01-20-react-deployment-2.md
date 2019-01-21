@@ -8,12 +8,22 @@ author: "Luke"
 
 ### Always develop website in the incognito (private) mode!
 
-An error in the component might cause it to be not rendered on the
+1. An error in the component might cause it to be not rendered on the
 html. E.g., if the error is in your Main.js, and all your other components is
 within your Main.js, your website could ended up rendering as a blank page.
 (Ever wondering where are all the components?)
 
-If the browser is complaining about you are sending http requests
+2. During development, frequently follow the following steps to avoid surprise
+during deployment:
+    1. develop and ```npm start``` and check the website on localhost
+    
+    2. ```npm run build``` to build the project
+    
+    3. ```serve -s build``` to serve the build created in the previous step
+    
+    4. even try to deploy it on firebase and see if it works as at local
+
+3. If the browser is complaining about you are sending http requests
 within the https website. You could add the following line inside the index.html's
 head tag: 
 ```

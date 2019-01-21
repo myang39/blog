@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12e66eff-e3f2-48d1-b7ac-f046f12c9174" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-01-20-react-deployment-2.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-01-20-react-deployment-2.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,8 +44,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2019-01-20-react-deployment-2.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="297">
-                <caret line="19" column="79" selection-start-line="19" selection-end-line="19" selection-end-column="79" />
+              <first_editor relative-caret-position="168">
+                <caret line="15" column="74" selection-start-line="15" selection-start-column="74" selection-end-line="15" selection-end-column="74" />
               </first_editor>
               <second_editor />
             </state>
@@ -75,7 +75,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="17" />
     <option name="y" value="24" />
-    <option name="width" value="1263" />
+    <option name="width" value="1213" />
     <option name="height" value="771" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -110,7 +110,7 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548019934831" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548040717799" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -152,15 +152,15 @@
       <updated>1547547972985</updated>
       <workItem from="1547547977442" duration="7709000" />
       <workItem from="1547830427399" duration="4582000" />
-      <workItem from="1548006005813" duration="1867000" />
+      <workItem from="1548006005813" duration="2428000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14158000" />
+    <option name="totallyTimeSpent" value="14719000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="17" y="24" width="1263" height="771" extended-state="0" />
+    <frame x="17" y="24" width="1213" height="771" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
@@ -168,7 +168,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" sideWeight="0.5007342" side_tool="true" weight="0.25970873" />
-      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.4992658" visible="true" weight="0.14602134" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.4992658" visible="true" weight="0.15226689" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.33578792" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
@@ -222,8 +222,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2019-01-20-react-deployment-2.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="297">
-            <caret line="19" column="79" selection-start-line="19" selection-end-line="19" selection-end-column="79" />
+          <first_editor relative-caret-position="168">
+            <caret line="15" column="74" selection-start-line="15" selection-start-column="74" selection-end-line="15" selection-end-column="74" />
           </first_editor>
           <second_editor />
         </state>
