@@ -8,16 +8,16 @@ author: "Luke"
 
 ### Always develop website in the incognito (private) mode!
 
-0. Try to test website from localhost in the incognito or private mode, because
+1. Try to test website from localhost in the incognito or private mode, because
 your newly modified code might not take effect because of the previous history, or cache, or 
 local Storage (under the Application tab in inspect).
 
-1. An error in the component might cause it to be not rendered on the
+2. An error in the component might cause it to be not rendered on the
 html. E.g., if the error is in your Main.js, and all your other components is
 within your Main.js, your website could ended up rendering as a blank page.
 (Ever wondering where are all the components?)
 
-2. During development, frequently follow the following steps to avoid surprise
+3. During development, frequently follow the following steps to avoid surprise
 during deployment:
 
     1. develop and ```npm start``` and check the website on localhost
@@ -53,7 +53,7 @@ during deployment:
         
         (4) ```firebase deploy``` to deploy it.
 
-3. If the browser is complaining about you are sending http requests
+4. If the browser is complaining about you are sending http requests
 within the https website. You could add the following line inside the index.html's
 head tag: 
 ```
