@@ -23,4 +23,6 @@ head tag:
 requests need to be backed up by the website you are sending requests to in
 order for this to be work.
 
+Thanks to https://stackoverflow.com/questions/33507566/mixed-content-blocked-when-running-an-http-ajax-operation-in-an-https-page
+
 
