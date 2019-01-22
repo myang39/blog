@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="12e66eff-e3f2-48d1-b7ac-f046f12c9174" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2019-01-22-python-virtual-env.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-01-22-python-virtual-env.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -69,8 +68,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2019-01-22-python-virtual-env.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="156">
-                <caret line="72" column="10" selection-start-line="72" selection-start-column="10" selection-end-line="72" selection-end-column="10" />
+              <first_editor relative-caret-position="109">
+                <caret line="53" column="70" selection-start-line="53" selection-start-column="70" selection-end-line="53" selection-end-column="70" />
               </first_editor>
               <second_editor />
             </state>
@@ -137,7 +136,7 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548148638229" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548148779684" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -180,16 +179,15 @@
       <workItem from="1547547977442" duration="7709000" />
       <workItem from="1547830427399" duration="4582000" />
       <workItem from="1548006005813" duration="5437000" />
-      <workItem from="1548146861056" duration="1721000" />
+      <workItem from="1548146861056" duration="1855000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19449000" />
+    <option name="totallyTimeSpent" value="19583000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="49" y="23" width="1213" height="771" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="Image Layers" order="1" />
@@ -270,8 +268,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2019-01-22-python-virtual-env.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="156">
-            <caret line="72" column="10" selection-start-line="72" selection-start-column="10" selection-end-line="72" selection-end-column="10" />
+          <first_editor relative-caret-position="109">
+            <caret line="53" column="70" selection-start-line="53" selection-start-column="70" selection-end-line="53" selection-end-column="70" />
           </first_editor>
           <second_editor />
         </state>

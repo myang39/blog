@@ -8,6 +8,12 @@ author: "Luke"
 
 A quick look up for python virtual environment table
 
+Heads Up: virtual environments are meant to be environments for you dependencies and
+your packages and things like that for your project. But they are not actually
+for your project files. **Your project should not be inside your virtual env folder.**
+**Your project should be in another folder.**
+
+
 Install virtualenv:
 ```
 $pip install virtualenv
