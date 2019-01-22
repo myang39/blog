@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12e66eff-e3f2-48d1-b7ac-f046f12c9174" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_posts/2019-01-20-multi-threading.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2019-01-22-python-virtual-env.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -53,12 +53,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2019-01-20-multi-threading.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="367">
-                <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+                <caret line="22" selection-start-line="22" selection-end-line="22" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2019-01-22-python-virtual-env.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="322">
+                <caret line="66" column="10" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="10" />
               </first_editor>
               <second_editor />
             </state>
@@ -77,6 +89,7 @@
         <option value="$PROJECT_DIR$/_posts/2019-01-18-add-path-add-env-variable.md" />
         <option value="$PROJECT_DIR$/_posts/2019-01-20-react-deployment-2.md" />
         <option value="$PROJECT_DIR$/_posts/2019-01-20-multi-threading.md" />
+        <option value="$PROJECT_DIR$/_posts/2019-01-22-python-virtual-env.md" />
       </list>
     </option>
   </component>
@@ -87,8 +100,8 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="17" />
-    <option name="y" value="24" />
+    <option name="x" value="49" />
+    <option name="y" value="23" />
     <option name="width" value="1213" />
     <option name="height" value="771" />
   </component>
@@ -100,6 +113,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -116,15 +131,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548043639326" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548148442127" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -166,15 +179,16 @@
       <updated>1547547972985</updated>
       <workItem from="1547547977442" duration="7709000" />
       <workItem from="1547830427399" duration="4582000" />
-      <workItem from="1548006005813" duration="4740000" />
+      <workItem from="1548006005813" duration="5437000" />
+      <workItem from="1548146861056" duration="1454000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17031000" />
+    <option name="totallyTimeSpent" value="19182000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="17" y="24" width="1213" height="771" extended-state="0" />
+    <frame x="49" y="23" width="1213" height="771" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
@@ -182,7 +196,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" sideWeight="0.5007342" side_tool="true" weight="0.25970873" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.4992658" visible="true" weight="0.20273738" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.4992658" visible="true" weight="0.20615911" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.33578792" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
@@ -233,6 +247,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2019-01-20-multi-threading.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="367">
+            <caret line="22" selection-start-line="22" selection-end-line="22" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2019-01-20-react-deployment-2.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -243,11 +267,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2019-01-20-multi-threading.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2019-01-22-python-virtual-env.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="367">
-            <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <first_editor relative-caret-position="322">
+            <caret line="66" column="10" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="10" />
           </first_editor>
           <second_editor />
         </state>
