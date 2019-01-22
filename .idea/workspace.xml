@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12e66eff-e3f2-48d1-b7ac-f046f12c9174" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_posts/2019-01-22-python-virtual-env.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-01-22-python-virtual-env.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-01-22-python-virtual-env.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -69,8 +69,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2019-01-22-python-virtual-env.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="322">
-                <caret line="66" column="10" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="10" />
+              <first_editor relative-caret-position="156">
+                <caret line="72" column="10" selection-start-line="72" selection-start-column="10" selection-end-line="72" selection-end-column="10" />
               </first_editor>
               <second_editor />
             </state>
@@ -137,7 +137,7 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548148442127" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548148604817" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -180,12 +180,12 @@
       <workItem from="1547547977442" duration="7709000" />
       <workItem from="1547830427399" duration="4582000" />
       <workItem from="1548006005813" duration="5437000" />
-      <workItem from="1548146861056" duration="1454000" />
+      <workItem from="1548146861056" duration="1721000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19182000" />
+    <option name="totallyTimeSpent" value="19449000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="49" y="23" width="1213" height="771" extended-state="0" />
@@ -196,9 +196,9 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" sideWeight="0.5007342" side_tool="true" weight="0.25970873" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.4992658" visible="true" weight="0.20615911" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.4992658" weight="0.20615911" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.33578792" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.45655376" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="3" />
@@ -270,8 +270,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2019-01-22-python-virtual-env.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="322">
-            <caret line="66" column="10" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="10" />
+          <first_editor relative-caret-position="156">
+            <caret line="72" column="10" selection-start-line="72" selection-start-column="10" selection-end-line="72" selection-end-column="10" />
           </first_editor>
           <second_editor />
         </state>

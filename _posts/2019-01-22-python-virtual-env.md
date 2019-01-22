@@ -70,6 +70,9 @@ Install all the dependencies from requirement.txt:
 ```$pip install -r requirements.txt```
 
 
+Thanks to https://www.youtube.com/watch?v=N5vscPTWKOk
+
+
 
 
 
