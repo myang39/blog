@@ -51,7 +51,7 @@ $pip freeze --local > requiremets.txt
 
 Notice: you could also use your global side packages within a virtual
 python env. The command would only take the local (virtual env) dependencies
-that you had in your python and put them into requirement.txt
+that you had in your virtual python env and put them into requirements.txt
 
 Get out of the python virtual environment:
 ```$deactivate```
